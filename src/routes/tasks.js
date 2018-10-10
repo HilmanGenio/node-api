@@ -46,5 +46,4 @@ module.exports = app => {
           res.status(204).json({msg: error.message});
         });
     });
-
 };
